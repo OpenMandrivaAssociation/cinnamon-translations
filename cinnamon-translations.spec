@@ -4,7 +4,7 @@
 #global  date              20141123
 
 Name:           cinnamon-translations
-Version:        2.4.2
+Version:        2.6.1
 Release:        1
 Summary:        Translations for Cinnamon and Nemo
 

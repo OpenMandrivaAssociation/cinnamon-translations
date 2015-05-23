@@ -1,3 +1,5 @@
-sources:
+removed_sources:
   cinnamon-translations-2.4.2.tar.gz: 43264b1d6a61b55843c5b3ea1a7f2043b3c3a569
+sources:
+  cinnamon-translations-2.6.1.tar.gz: 59c298b6467d55d9bc6a3c8381b740fad2054e93
   mint-translations_2014.05.25.tar.gz: d336866be575b97befdcecad1bde4daad4b702c7
