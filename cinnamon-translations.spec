@@ -5,7 +5,7 @@
 
 Name:           cinnamon-translations
 Version:        2.6.1
-Release:        1
+Release:        2
 Summary:        Translations for Cinnamon and Nemo
 
 License:        GPLv2+
@@ -15,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 #Source0:        %{name}-%{version}.git%{_internal_version}.tar.gz
 ##SourceGet0: https://github.com/linuxmint/cinnamon-translations/tarball/%{_internal_version}
 Source1:        http://packages.linuxmint.com/pool/main/m/mint-translations/mint-translations_%{_trans_version}.tar.gz
-Requires:       cinnamon
 BuildArch:      noarch
 Group:   Graphical desktop/Other
       
