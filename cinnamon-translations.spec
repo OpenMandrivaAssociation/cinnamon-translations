@@ -1,5 +1,5 @@
 Name:           cinnamon-translations
-Version:        3.2.2
+Version:        4.0.2
 Release:        1
 Summary:        Translations for Cinnamon and Nemo
 
@@ -25,9 +25,12 @@ cp -Rp usr/share/locale/* $RPM_BUILD_ROOT%{_datadir}/locale/
 
 %find_lang cinnamon
 %find_lang nemo
+%find_lang nemo-extensions
 %find_lang cinnamon-control-center
 %find_lang cinnamon-screensaver
 %find_lang cinnamon-bluetooth
+%find_lang cinnamon-session
+%find_lang cinnamon-settings-daemon
 
 cat *.lang > %{name}.lang
 
