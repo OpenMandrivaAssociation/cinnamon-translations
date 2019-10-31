@@ -1,11 +1,11 @@
 Name:           cinnamon-translations
-Version:        4.0.2
+Version:        4.2.2
 Release:        1
 Summary:        Translations for Cinnamon and Nemo
 
 License:        GPLv2+
 URL:            http://cinnamon.linuxmint.com
-Source0:        %{name}-%{version}.tar.gz
+Source0:        https://github.com/linuxmint/cinnamon-translations/archive/%{version}/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 Group:   Graphical desktop/Other
       
@@ -17,7 +17,7 @@ Translations for Cinnamon and Nemo
 %setup -q -n %{name}-%{version}
 
 %build
-make
+%make_build
 
 %install
 install -m 0755 -d $RPM_BUILD_ROOT%{_datadir}/locale/
