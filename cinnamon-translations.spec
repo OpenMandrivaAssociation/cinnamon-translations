@@ -1,5 +1,5 @@
 Name:           cinnamon-translations
-Version:        4.2.2
+Version:        4.4.1
 Release:        1
 Summary:        Translations for Cinnamon and Nemo
 
@@ -9,7 +9,6 @@ Source0:        https://github.com/linuxmint/cinnamon-translations/archive/%{ver
 BuildArch:      noarch
 Group:   Graphical desktop/Other
       
-
 %description
 Translations for Cinnamon and Nemo
 
@@ -36,6 +35,3 @@ cat *.lang > %{name}.lang
 
 %files -f %{name}.lang
 %doc COPYING
-
-
-
