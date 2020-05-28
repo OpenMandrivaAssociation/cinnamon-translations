@@ -27,7 +27,6 @@ cp -Rp usr/share/locale/* $RPM_BUILD_ROOT%{_datadir}/locale/
 %find_lang nemo-extensions
 %find_lang cinnamon-control-center
 %find_lang cinnamon-screensaver
-%find_lang cinnamon-bluetooth
 %find_lang cinnamon-session
 %find_lang cinnamon-settings-daemon
 
