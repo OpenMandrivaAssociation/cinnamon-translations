@@ -8,6 +8,9 @@ URL:            http://cinnamon.linuxmint.com
 Source0:        https://github.com/linuxmint/cinnamon-translations/archive/%{version}/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 Group:   Graphical desktop/Other
+
+BuildRequires: make
+BuildRequires: gettext
       
 %description
 Translations for Cinnamon and Nemo
