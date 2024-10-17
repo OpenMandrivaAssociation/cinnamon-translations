@@ -4,7 +4,7 @@ Release:        1
 Summary:        Translations for Cinnamon and Nemo
 
 License:        GPLv2+
-URL:            http://cinnamon.linuxmint.com
+URL:            https://cinnamon.linuxmint.com
 Source0:        https://github.com/linuxmint/cinnamon-translations/archive/%{version}/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 Group:   Graphical desktop/Other
