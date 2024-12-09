@@ -1,5 +1,5 @@
 Name:           cinnamon-translations
-Version:        6.4.0
+Version:        6.4.1
 Release:        1
 Summary:        Translations for Cinnamon and Nemo
 
