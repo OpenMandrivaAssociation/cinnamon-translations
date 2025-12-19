@@ -1,5 +1,5 @@
 Name:           cinnamon-translations
-Version:        6.4.2
+Version:        6.6.1
 Release:        1
 Summary:        Translations for Cinnamon and Nemo
 
@@ -16,14 +16,14 @@ BuildRequires: gettext
 Translations for Cinnamon and Nemo
 
 %prep
-%setup -q -n %{name}-%{version}
+%autosetup -n %{name}-%{version}
 
 %build
 %make_build
 
 %install
-install -m 0755 -d $RPM_BUILD_ROOT%{_datadir}/locale/
-cp -Rp usr/share/locale/* $RPM_BUILD_ROOT%{_datadir}/locale/
+install -m 0755 -d %{buildroot}/%{_datadir}/locale/
+cp -Rp usr/share/locale/* %{buildroot}/%{_datadir}/locale/
 
 %find_lang cinnamon
 %find_lang nemo
