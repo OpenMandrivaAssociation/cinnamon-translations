@@ -1,6 +1,6 @@
 Name:           cinnamon-translations
 Version:        6.6.2
-Release:        1
+Release:        2
 Summary:        Translations for Cinnamon and Nemo
 
 License:        GPLv2+
